@@ -1,0 +1,18 @@
+.button-primary {
+    width: auto;
+    outline: none;
+    border: 0;
+    background: #753388;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 6px 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 1px #68070720;
+    transition: 0.3s linear all;
+    a:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 5px 3px #5e434340;;
+    }
+    &:disabled{ cursor: default; opacity: 0.7;}
+}
